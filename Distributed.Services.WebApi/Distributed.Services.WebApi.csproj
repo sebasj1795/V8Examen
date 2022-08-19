@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Sebastian\Documents\Plantillas Venta - Joel\NET5-SECURITY\Security.Services\Distributed.Services.WebApi\Distributed.Services.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.13.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="4.0.0" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+    <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="5.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Security.Application.Interfaces\Security.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Security.Infrastructure.DataModel\Security.Infrastructure.DataModel.csproj" />
+    <ProjectReference Include="..\Security.Job.Configuration\Security.Job.Configuration.csproj" />
+    <ProjectReference Include="..\Security.Transversal.Auth\Security.Transversal.Auth.csproj" />
+    <ProjectReference Include="..\Security.Transversal.IoC\Security.Transversal.IoC.csproj" />
+    <ProjectReference Include="..\Security.Transversal.Logger\Security.Transversal.Logger.csproj" />
+    <ProjectReference Include="..\Security.Transversal.Mapper\Security.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

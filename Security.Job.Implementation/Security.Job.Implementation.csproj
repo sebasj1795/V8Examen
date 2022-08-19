@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Security.Domain.Interfaces\Security.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Security.Job.Interfaces\Security.Job.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

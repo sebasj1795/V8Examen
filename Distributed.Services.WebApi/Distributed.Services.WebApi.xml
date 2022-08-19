@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Distributed.Services.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Distributed.Services.WebApi.Controllers.ActionController.Create(Security.Application.Dto.Action.ActionCreateRequestDto)">
+            <summary>
+            Crear acción 
+            </summary>
+            <remarks>
+            Aquí una descripción mas larga si fuera necesario. Obtiene un objeto por su Id.
+            </remarks>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.ActionController.Update(Security.Application.Dto.Action.ActionUpdateRequestDto)">
+            <summary>
+            Actualizar acción 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.ActionController.GetById(System.Int32)">
+            <summary>
+            Obtener acción 
+            </summary>
+            <param name="id">Código de acción</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.ActionController.GetAll(Security.Application.Dto.Paginate.PaginateRequestDto)">
+            <summary>
+            Listar acciones
+            </summary>
+            <param name="request">Paginacion</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.AppController.Create(Security.Application.Dto.App.AppCreateRequestDto)">
+            <summary>
+            Crear App 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.AppController.Update(Security.Application.Dto.App.AppUpdateRequestDto)">
+            <summary>
+            Actualizar App 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.AppController.GetById(System.Int32)">
+            <summary>
+            Obtener app 
+            </summary>
+            <param name="id">Código de app</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.AppController.GetAll(Security.Application.Dto.Paginate.PaginateRequestDto)">
+            <summary>
+            Listar Apps 
+            </summary>
+            <param name="request">Código de App</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.AuthController.Login(Security.Application.Dto.Login.LoginRequestDto)">
+            <summary>
+            Permite acceso al sistema, se genera un token de acceso
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.AuthController.ChangePassword(Security.Application.Dto.Login.ChangePasswordRequestDto)">
+            <summary>
+            Cambia la contraseña de usuario 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.CompanyController.Create(Security.Application.Dto.Company.CompanyCreateRequestDto)">
+            <summary>
+            Crear Compañia 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.CompanyController.Update(Security.Application.Dto.Company.CompanyUpdateRequestDto)">
+            <summary>
+            Actualizar Compañia 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.CompanyController.GetById(System.Int32)">
+            <summary>
+            Obtener Compañia 
+            </summary>
+            <param name="id">Código de Compañia</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.CompanyController.GetAll(Security.Application.Dto.Paginate.PaginateRequestDto)">
+            <summary>
+            Listar Compañias
+            </summary>
+            <param name="request">Parámetros de paginación</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MasterDetController.Create(Security.Application.Dto.Master.MasterDetCreateRequestDto)">
+            <summary>
+            Crear Maestro detalle 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MasterDetController.Update(Security.Application.Dto.Master.MasterDetUpdateRequestDto)">
+            <summary>
+            Actualizar Maestro detalle 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MasterDetController.GetById(System.Int32)">
+            <summary>
+            Obtener maestro detalle 
+            </summary>
+            <param name="id">Código de maestro detalle</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MasterDetController.GetAll(Security.Application.Dto.Paginate.PaginateRequestDto)">
+            <summary>
+            Listar Maestros Detalles 
+            </summary>
+            <param name="request">datos paginación</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MenuActionController.Create(Security.Application.Dto.MenuAction.MenuActionCreateRequestDto)">
+            <summary>
+            Crear Acción de Menú 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MenuActionController.Update(Security.Application.Dto.MenuAction.MenuActionUpdateRequestDto)">
+            <summary>
+            Actualizar Acción de menú 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MenuActionController.GetById(System.Int32)">
+            <summary>
+            Obtener menú acción 
+            </summary>
+            <param name="id">Código de Menu Acción</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MenuActionController.GetAll(Security.Application.Dto.Paginate.PaginateRequestDto)">
+            <summary>
+            Listar Acciones de menú 
+            </summary>
+            <param name="request">Paginación</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MenuController.Create(Security.Application.Dto.Menu.MenuCreateRequestDto)">
+            <summary>
+            Crear Menú 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MenuController.Update(Security.Application.Dto.Menu.MenuUpdateRequestDto)">
+            <summary>
+            Actualizar menú 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MenuController.GetById(System.Int32)">
+            <summary>
+            Obtener menú 
+            </summary>
+            <param name="id">Código de menú</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.MenuController.GetAll(Security.Application.Dto.Paginate.PaginateRequestDto)">
+            <summary>
+            Listar menús 
+            </summary>
+            <param name="request">datos paginación</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.ModuleController.Create(Security.Application.Dto.Module.ModuleCreateRequestDto)">
+            <summary>
+            Crear módulo
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.ModuleController.Update(Security.Application.Dto.Module.ModuleUpdateRequestDto)">
+            <summary>
+            Actualizar módulo 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.ModuleController.GetById(System.Int32)">
+            <summary>
+            Obtener módulo 
+            </summary>
+            <param name="id">Código de menú</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.ModuleController.GetAll(Security.Application.Dto.Paginate.PaginateRequestDto)">
+            <summary>
+            Listar módulos 
+            </summary>
+            <param name="request">Código de módulo</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.PermissionController.GetByUser">
+            <summary>
+            Obtener permisos por usuario 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.PermissionController.GetByRol(System.Int32)">
+            <summary>
+            Obtener permisos por usuario y rol 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.RoleController.Create(Security.Application.Dto.Role.RoleCreateRequestDto)">
+            <summary>
+            Crear rol 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.RoleController.Update(Security.Application.Dto.Role.RoleUpdateRequestDto)">
+            <summary>
+            Actualizar rol 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.RoleController.GetById(System.Int32)">
+            <summary>
+            Obtener rol 
+            </summary>
+            <param name="id">Código de rol</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.RoleController.GetAll(Security.Application.Dto.Paginate.PaginateRequestDto)">
+            <summary>
+            Listar roles
+            </summary>
+            <param name="request">Código de rol</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.UserController.Create(Security.Application.Dto.User.UserCreateRequestDto)">
+            <summary>
+            Crear usuario 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.UserController.Update(Security.Application.Dto.User.UserUpdateRequestDto)">
+            <summary>
+            Actualizar usuario 
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Obtener usuario 
+            </summary>
+            <param name="id">Código de usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:Distributed.Services.WebApi.Controllers.UserController.GetAll(Security.Application.Dto.Paginate.PaginateRequestDto)">
+            <summary>
+            Listar usuarios
+            </summary>
+            <param name="request">Código de usuario</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

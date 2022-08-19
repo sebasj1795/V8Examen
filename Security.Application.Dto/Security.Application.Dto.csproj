@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.ExpressionMapping" Version="5.1.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Security.Transversal.Common\Security.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

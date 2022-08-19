@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.28" />
+    <PackageReference Include="Hangfire.MemoryStorage" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Security.Job.Implementation\Security.Job.Implementation.csproj" />
+    <ProjectReference Include="..\Security.Job.Interfaces\Security.Job.Interfaces.csproj" />
+    <ProjectReference Include="..\Security.Transversal.Common\Security.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

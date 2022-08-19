@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="LinqKit" Version="1.1.27" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Security.Application.Interfaces\Security.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Security.Domain.Interfaces\Security.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Security.Domain.Main\Security.Domain.MainModule.csproj" />
+    <ProjectReference Include="..\Security.Transversal.Auth\Security.Transversal.Auth.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PrimeNG\Pagination\" />
+  </ItemGroup>
+
+</Project>

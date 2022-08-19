@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Security.Application.Dto\Security.Application.Dto.csproj" />
+    <ProjectReference Include="..\Security.Transversal.Common\Security.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

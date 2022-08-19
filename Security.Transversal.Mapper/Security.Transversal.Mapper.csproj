@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Security.Application.Dto\Security.Application.Dto.csproj" />
+    <ProjectReference Include="..\Security.Domain.Entities\Security.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Security.Transversal.Auth\Security.Transversal.Auth.csproj" />
+    <ProjectReference Include="..\Security.Transversal.Common\Security.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
