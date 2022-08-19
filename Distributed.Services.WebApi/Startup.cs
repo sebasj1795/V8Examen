@@ -63,7 +63,7 @@ namespace Distributed.Services.WebApi
 
             //INJECTIONS 
             services.AddInjectionsServices();
-            services.AddInjectionsJobs();
+            //services.AddInjectionsJobs();
 
             //AUTHENTICATION
             services.AddCustomAuthenticationJwt(Configuration);
